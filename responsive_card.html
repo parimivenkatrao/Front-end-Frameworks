@@ -1,0 +1,52 @@
+<!---#create a responsive card   component with an image and text.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Card Component with Bulma</title>
+  <!-- Bulma CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <style>
+    /* Custom styles */
+    .custom-card {
+      max-width: 300px;
+      margin: auto;
+    }
+    .card-image img {
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <div class="card custom-card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="ai.jpeg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Card Title</p>
+                <p class="subtitle is-6">Card Subtitle</p>
+              </div>
+            </div>
+
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+              <br>
+              <time datetime="2022-03-26">11:09 PM - 26 Mar 2022</time>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
